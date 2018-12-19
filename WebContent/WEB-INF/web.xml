@@ -10,6 +10,12 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  <listener>
+  	<listener-class>
+  	org.apache.struts2.tiles.StrutsTilesListener
+  	</listener-class>
+  </listener>
+  
    <filter>
   	<filter-name>struts2</filter-name>
   	<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
